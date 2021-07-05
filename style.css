@@ -171,8 +171,8 @@ header a:visited{
 }
 
 .slikanikolina img{
-    height: 600px;
-    width: 417px;
+    height: 500px;
+    width: 340px;
     padding-left: 120px;
 }
 
@@ -193,25 +193,25 @@ header a:visited{
 
 
 }
-.germany{
-    position:absolute;
-    left:535px;
-    top:405px;
-    font-weight: bold;
-    background-color: yellow;
-    color: black;
-    font-size: 20px;
+ .germany{
+     position:absolute;
+     left:535px;
+     top:405px;
+     font-weight: bold;
+     background-color: yellow;
+     color: black;
+     font-size: 20px;
     text-decoration: none;
-    padding-right: 15px;
-    padding-left: 15px;
-    border-radius: 10px;
+     padding-right: 15px;
+     padding-left: 15px;
+     border-radius: 10px;
 
-}
+ }
 
-.germany:hover{
-    background-color: hotpink;
-    color:white;
-}
+ .germany:hover{
+     background-color: hotpink;
+     color:white;
+ }
 
 .czech{
     position:absolute;
@@ -256,6 +256,8 @@ header a:visited{
 }
 
 .welcome{
+    color: white;
+    font-family: "Times New Roman";
     width: 639px;
     padding-left: 99px;
     text-align: right;
@@ -265,6 +267,7 @@ header a:visited{
 a{
     list-style: none;
 }
+
 
 .greece{
     position:absolute;
@@ -350,6 +353,13 @@ a{
     color:white;
 }
 
+/*.image{
+    position: relative;
+
+    height: 980px;
+    width:680px;
+
+}*/
 
 .czechtxt1{
     display: flex;
@@ -373,15 +383,15 @@ a{
 
 .czechphotos{
     display: flex;
-    padding-left: 76px;
+    padding-left: 39px;
     padding-bottom: 30px;
 }
 
 .czechphotos img{
     width: 169px;
     height: 244px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 81px;
+    padding-right: 81px;
 }
 
 .italytxt1{
@@ -469,11 +479,158 @@ a{
     padding-top: 22px;
 }
 
+.hungarytxt1{
+    padding-left: 121px;
+    width: 1161px;
+}
+
+.hungarytxt1 p{
+    font-size: 20px;
+    font-family: "Times New Roman";
+    text-indent: 50px;
+    color:white;
+    text-align: justify;
+}
+
+.hungarytxt2{
+    display: flex;
+    width: 1161px;
+    padding-left: 121px;
+
+}
+
+.hungarytxt2 p{
+    font-size: 20px;
+    font-family: "Times New Roman";
+    text-indent: 50px;
+    color:white;
+    text-align: justify;
+    padding-left: 30px;
+    width: 600px;
+    padding-top: 10px;
+}
+
+.hungarytxt2 iframe{
+    padding-top: 20px;
+}
+.hungaryphotos{
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.hungaryphotos img{
+    width: 213px;
+    height: 250px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.greecetxt1{
+    padding-left: 121px;
+    width: 1161px;
+}
+
+.greecetxt1 p{
+    font-size: 20px;
+    font-family: "Times New Roman";
+    text-indent: 50px;
+    color:white;
+    text-align: justify;
+}
+
+.greecetxt1 p:nth-child(2){
+    padding-left: 67px;
+}
+
+.greecetxt2{
+    display: flex;
+    width: 1161px;
+    padding-left: 121px;
+}
+
+.greecetxt2 img{
+    width: 231px;
+    height: 300px;
+}
+
+.greecetxt2 iframe{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.greecetxt3 {
+    padding-left: 80px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    display: flex;
+}
+
+.greecetxt3 img{
+    width: 231px;
+    height: 300px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.croatiatxt1{
+    padding-left: 121px;
+    width: 1161px;
+}
+
+.croatiatxt1 p{
+    font-size: 20px;
+    font-family: "Times New Roman";
+    text-indent: 50px;
+    color:white;
+    text-align: justify;
+}
+
+.croatiatxt2{
+    padding: 10px;
+    padding-left: 270px;
+}
+
+.croatiatxt3{
+    display: flex;
+    padding-left: 121px;
+}
+
+.croatiatxt3 p{
+    font-size: 20px;
+    font-family: "Times New Roman";
+    text-indent: 50px;
+    color:white;
+    text-align: justify;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 450px;
+    padding-top: 20px;
+}
+
+.croatiatxt3 img{
+    height: 200px;
+    width: 330px;
+    padding-top: 15px;
+}
+
+.croatiatxt4{
+    display: flex;
+    padding-top: 30px;
+    padding-left: 77px;
+    padding-bottom: 30px;
+}
+
+.croatiatxt4 img{
+    padding-left: 106px;
+    padding-right: 46px;
+    width: 443px;
+    height: 266px;
+}
 
 .serbia1{
     display: flex;
     padding-left: 121px;
-    width: 1183px;padding-bottom: 73px;
+    width: 1183px;
 }
 
 .serbia1 p{
@@ -492,8 +649,7 @@ a{
 }
 
 .serbiatxt2 img{
-    height: 289px;
-    padding-top: 70px;
+    height: 256px;
     width: 220px;
 }
 
@@ -531,16 +687,12 @@ a{
     padding-bottom: 40px;
 }
 
-.serbia2txt2 iframe{
-    margin-top: -48px;
-}
-
 .serbia2txt3{
     margin-top: -90px;
 }
 
 .link{
-    color:purple;
+   color:purple;
     list-style: none;
 
 }
@@ -634,6 +786,31 @@ footer{
     flex-wrap: wrap;
 
 }
+/*.italy-text{
+    text-indent: 50px;
+    height:500px;
+    width:700px;
+    text-align: justify;
+    color: white;
+    font-family: "Times New Roman";
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 80px;
+
+}
+.italy-text1{
+    text-indent: 50px;
+    height:500px;
+    width:700px;
+    text-align: justify;
+    color: white;
+    font-family: "Times New Roman";
+    font-size: 20px;
+    float:right;
+    clear: right;
+    margin-right: 80px;
+
+}*/
 
 .germanytxt1{
     display: flex;
@@ -703,6 +880,9 @@ footer{
     cursor: pointer;
     transform: rotate(360deg);
     transition: transform 1s ease-in-out;
-
+    
 
 }
+
+
+
