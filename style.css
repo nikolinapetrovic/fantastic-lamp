@@ -1,0 +1,708 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 1403px;
+    margin: auto;
+}
+
+.whole{
+    background-color: grey;
+}
+.title{
+    margin-left:121px;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding-top: 5px;
+    display: inline-block;
+    color: white;
+    border-radius: 10px;
+    background-color: hotpink;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 0px;
+}
+header{
+    padding-top:10px;
+    padding-bottom: 10px;
+    background-color: dimgrey;
+}
+span{
+    background-color: purple;
+    border-radius: 10px;
+    padding-top:5px;
+    padding-bottom: 6px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.menu1{
+    float:right;
+}
+.menu2{
+    background-color: purple;
+    text-decoration: none;
+    color:white;
+    display: inline-block;
+    width: 100px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 5px;
+    border-radius: 10px;
+}
+.menu:hover{
+    background-color: hotpink;
+    color: white;
+}
+
+.menu {
+    border-radius: 10px;
+    background-color: dimgrey;
+    text-decoration: none;
+    color: white;
+    width: 100px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 5px;
+
+}
+
+header{
+    display: flex;
+}
+
+.header2{
+    float: right;
+    padding-left: 596px;
+}
+
+.page{
+    font-family: Arial;
+}
+
+header a:visited{
+    text-decoration: none;
+}
+.body{
+    margin-top: 10px;
+    background-color: gray;
+    /*height: 1000px;*/
+    /*position: relative;*/
+    display: flex;
+
+}
+
+.body2{
+    margin-top: 10px;
+    background-color: gray;
+    height: 1000px;
+    position: relative;
+}
+
+.aboutme{
+    display: flex;
+}
+
+.paragraph1 p{
+    width: 645px;
+    padding-left: 120px;
+    font-size: 20px;
+    font-family: "Times New Roman";
+    text-indent: 50px;
+    color:white;
+    text-align: justify;
+
+}
+
+.p1{
+    padding-left: 84px;
+    padding-top: 22px;
+}
+
+.exercising{
+    display: flex;
+    width: 1165px;
+    padding-left: 118px;
+    padding-top: 75px;
+}
+
+.exercising p{
+    margin-left: -48px;
+    margin-top: -25px;
+    font-size: 20px;
+    font-family: "Times New Roman";
+    text-indent: 50px;
+    color:white;
+    text-align: justify;
+}
+
+.exercising img{
+    width: 340px;
+    height: 212px;
+}
+
+.computers{
+    display: flex;
+    width: 1165px;
+    padding-left: 118px;
+    margin-top: -45px;
+}
+
+.paragraph4 p{
+    font-size: 20px;
+    font-family: "Times New Roman";
+    text-indent: 50px;
+    color:white;
+    text-align: justify;
+    margin-top: -10px;
+    margin-left: -71px;
+}
+
+.programming img{
+    width: 376px;
+    height: 207px;
+    margin-bottom: -20px;
+}
+
+.slikanikolina img{
+    height: 600px;
+    width: 417px;
+    padding-left: 120px;
+}
+
+::selection{
+    background-color: hotpink;
+    color: gray;
+}
+
+.body3{
+    display: inline-block;
+}
+
+.europe{
+    height:600px;
+    width:1155px ;
+    padding-bottom: 25px;
+    padding-left: 125px;
+
+
+}
+.germany{
+    position:absolute;
+    left:535px;
+    top:405px;
+    font-weight: bold;
+    background-color: yellow;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 10px;
+
+}
+
+.germany:hover{
+    background-color: hotpink;
+    color:white;
+}
+
+.czech{
+    position:absolute;
+    left:595px;
+    top:443px;
+    font-weight: bold;
+    background-color: cornflowerblue;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 10px;
+
+
+}
+
+.czech:hover{
+    background-color: hotpink;
+    color:white;
+}
+
+.italy{
+    position:absolute;
+    left:542px;
+    top:548px;
+    font-weight: bold;
+    background-color: orange;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 10px;
+
+
+}
+
+.italy:hover{
+    background-color: hotpink;
+    color:white;
+}
+
+.welcome{
+    width: 639px;
+    padding-left: 99px;
+    text-align: right;
+    padding-top: 100px;
+}
+
+a{
+    list-style: none;
+}
+
+.greece{
+    position:absolute;
+    left:801px;
+    top:659px;
+    font-weight: bold;
+    background-color: coral;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 10px;
+
+
+}
+
+.greece:hover{
+    background-color: hotpink;
+    color:white;
+}
+
+.croatia{
+    position:absolute;
+    left:680px;
+    top:533px;
+    font-weight: bold;
+    background-color: lightgreen;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 10px;
+
+
+}
+
+.croatia:hover{
+    background-color: hotpink;
+    color:white;
+}
+
+.serbia{
+    position:absolute;
+    left:774px;
+    top:555px;
+    font-weight: bold;
+    background-color: navajowhite;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 10px;
+
+
+}
+
+.serbia:hover{
+    background-color: hotpink;
+    color:white;
+}
+
+.hungary{
+    position:absolute;
+    left:712px;
+    top:500px;
+    font-weight: bold;
+    background-color: lightpink;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 10px;
+
+
+}
+
+.hungary:hover{
+    background-color: hotpink;
+    color:white;
+}
+
+
+.czechtxt1{
+    display: flex;
+    width: 1238px;
+    padding-left: 121px;
+}
+
+.czechtxt1 div p{
+    font-size: 20px;
+    font-family: "Times New Roman";
+    text-indent: 50px;
+    color:white;
+    text-align: justify;
+    width: 310px;
+}
+.czechtxt1 iframe{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 25px;
+}
+
+.czechphotos{
+    display: flex;
+    padding-left: 76px;
+    padding-bottom: 30px;
+}
+
+.czechphotos img{
+    width: 169px;
+    height: 244px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.italytxt1{
+    display: flex;
+    width: 1350px;
+    padding-left: 115px;
+}
+
+.italytxt1 p{
+    font-size: 20px;
+    font-family: "Times New Roman";
+    text-indent: 50px;
+    color:white;
+    text-align: justify;
+    width: 561px;
+    padding-left: 35px;
+    padding-right: 63px;
+}
+
+
+.italytxt1 img{
+    width: 224px;
+    padding-top: 24px;
+    height: 235px;
+}
+
+.italytxt1 img:first-child{
+    width: 276px;
+    height: 224px;
+    padding-top: 22px;
+}
+
+.italytxt2{
+    display: flex;
+    width: 1350px;
+    padding-left: 112px;
+    padding-top: 31px;
+}
+
+.italytxt2 p{
+    font-size: 20px;
+    font-family: "Times New Roman";
+    text-indent: 50px;
+    color:white;
+    text-align: justify;
+    width: 572px;
+    padding-left: 74px;
+    padding-right: 54px;
+}
+
+.italytxt2 img{
+    width: 231px;
+    height: 224px;
+    padding-top: 22px;
+}
+
+.italytxt3{
+    display: flex;
+    width: 1350px;
+    padding-left: 112px;
+    padding-top: 31px;
+    padding-bottom: 30px;
+}
+
+.italytxt3 p{
+    font-size: 20px;
+    font-family: "Times New Roman";
+    text-indent: 50px;
+    color:white;
+    text-align: justify;
+    width: 650px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.italytxt3 img{
+    width: 239px;
+    height: 213px;
+    padding-top: 22px;
+}
+
+.italytxt3 iframe{
+    padding-right: 45px;
+    padding-left: 62px;
+    padding-top: 22px;
+}
+
+
+.serbia1{
+    display: flex;
+    padding-left: 121px;
+    width: 1183px;padding-bottom: 73px;
+}
+
+.serbia1 p{
+    font-size: 20px;
+    font-family: "Times New Roman";
+    text-indent: 50px;
+    color:white;
+    text-align: justify;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 30px;
+}
+
+.serbiatxt2{
+    padding-top: 24px;
+}
+
+.serbiatxt2 img{
+    height: 289px;
+    padding-top: 70px;
+    width: 220px;
+}
+
+.serbia2{
+    display: flex;
+    padding-left: 145px;
+    width: 1161px;
+    padding-bottom: 35px;
+    padding-top: 15px;
+}
+
+.serbia2 img{
+    width: 210px;
+    height: 266px;
+}
+
+
+.serbia2txt1{
+    margin-right: 0px;
+}
+
+.serbia2txt3{
+    padding-left: 30px;
+}
+
+.serbia2txt1 img:first-child{
+    padding-bottom: 40px;
+}
+
+.serbia2txt1 {
+    margin-top: -90px;
+}
+
+.serbia2txt3 img:first-child{
+    padding-bottom: 40px;
+}
+
+.serbia2txt2 iframe{
+    margin-top: -48px;
+}
+
+.serbia2txt3{
+    margin-top: -90px;
+}
+
+.link{
+    color:purple;
+    list-style: none;
+
+}
+.paragraph3{
+    font-size: 20px;
+    font-family: "Times New Roman";
+    padding-left: 100px;
+    padding-top: 20px;
+    text-indent: 50px;
+    color:white;
+    text-align: justify;
+
+}
+
+.paragraph1{
+    float: left;
+    width:700px;
+    height:200px;
+}
+/*iframe{
+    margin-right:100px;
+    margin-top: 30px;
+    float:right;
+}*/
+/*.paragraph2{
+    height:300px;
+    width:450px;
+    float:left;
+    clear: left;
+    margin-top: 70px;
+    margin-left: 70px;
+}*/
+/*.paragraph6{
+    float:right;
+    height: 200px;
+    width:300px;
+    margin-right: 50px;
+    margin-top: 40px;
+}*/
+.paragraph3{
+    float: left;
+    width:400px;
+    height:300px;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+.paragraph5{
+    float: right;
+    width:450px;
+    height:250px;
+    clear:right;
+    margin-right: 70px;
+}
+
+
+.paragraph4{
+    float: left;
+    width:700px;
+    height:200px;
+    clear: left;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+footer{
+    text-align: center;
+    background-color: dimgrey;
+    color: white;
+    font-size: 20px;
+    font-family: "Times New Roman";
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.img-italy{
+    height: 200px;
+    width:200px;
+
+}
+.flexbox {
+    display: flex;
+    background-color: lightpink;
+    align-content: flex-start;
+    height: 400px;
+    width: 600px;
+    position: absolute;
+    top:700px;
+    right:100px;
+
+    flex-wrap: wrap;
+
+}
+
+.germanytxt1{
+    display: flex;
+    width: 1500px;
+    padding-left: 123px;
+}
+
+.germanytxt1 p{
+    width: 600px;
+    font-size: 20px;
+    font-family: "Times New Roman";
+    text-indent: 50px;
+    color:white;
+    text-align: justify;
+}
+
+.germanytxt1 iframe{
+    padding-left: 80px;
+    width: 474px;
+    height: 234px;
+    padding-top: 20px;
+}
+
+.germanytxt2 {
+    width: 1151px;
+    padding-left: 125px;
+}
+
+.germanytxt2 p {
+    padding-top: 25px;
+    font-size: 20px;
+    font-family: "Times New Roman";
+    text-indent: 50px;
+    color:white;
+    text-align: justify;
+}
+
+.germanyphotos1{
+    padding-top: 25px;
+    display: flex;
+    padding-left: 71px;
+}
+
+.germanyphotos1 img{
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 220px;
+    height: 300px;
+}
+
+.germanyphotos2{
+    display: flex;
+    padding-left: 71px;
+    padding-bottom: 30px;
+    padding-top: 25px;
+}
+
+.germanyphotos2 img{
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 220px;
+    height: 300px;
+}
+
+.hover1:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    transform: rotate(360deg);
+    transition: transform 1s ease-in-out;
+
+
+}
